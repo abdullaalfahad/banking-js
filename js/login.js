@@ -7,7 +7,7 @@ document.getElementById('login-button').addEventListener('click', function () {
     const passwordValue = passwordField.value;
 
     if (emailValue == 'aafahad02@gmail.com' && passwordValue == '123456') {
-        window.location.href = 'banking.html';
+        window.location.href = '../banking.html';
     }
 
 })
